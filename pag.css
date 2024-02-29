@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 0px;
+}
+body{
+    background-image: url(img/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+ul{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+   
+}
+nav li{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    height:75px;
+    width: 200px;
+    margin: -2px;
+    padding: 5px 10px;
+    background-color: black;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+}
+nav li:hover{
+    background-color:black;
+    color:  white;
+    
+    transform: scale(1.1);
+}
+.cuadrado{
+    position: relative;
+    
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    top: 150px;
+   
+    color: black;
+    font-size: 25px;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+}
+h1{
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-size: 48px;
+}
+img{
+    padding-top: 14px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+input[type="text"], input[type="password"]{
+    text-align: center;
+    font-size: 24px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid white;
+    
+}
+.button{
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: blue;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
+a{
+    font-size: 18px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600px;
+}
+.link:hover{
+    color: blue;
+}
+@media(min-width: 760px){
+    .formulario{
+        margin-top: 150px;
+        width: 500px;
+        margin: auto;
+        border-radius: 2%;
+
+    }
+}
+    
+
+

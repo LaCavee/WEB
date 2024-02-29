@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu dentro de Nav con inlineblock y float</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-size: 0px;
+        }
+        body{
+            background-image: url(img/fon.jpg);
+            background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        background-attachment: fixed
+
+        }
+        ul{
+            text-align: center;
+        }
+        nav a{
+            text-decoration: none;
+            color: inherit;
+            font-size: 20px;
+           
+        }
+        nav li{
+            display: inline-block;
+            width: 200px;
+            margin: -2px;
+            padding: 5px 10px;
+            background-color: grey;
+            border: 1px solid black;
+            text-align: center;
+            color: black;
+        }
+        nav li:hover{
+            background-color:rgb(83, 78, 78);
+            color: white;
+        }
+        .cuadrado{
+            position: relative;
+            
+            width: 1000px;
+            height: 500px;
+            margin: auto;
+            top: 150px;
+           
+            color: black;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="quienessomos.html">Quienes somos</a></li>
+        <li><a href="proyectosyservicios.html">Proyectos y Servicios</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Blog de noticias</a></li>
+        <li><a href="#">Área de Cliente</a></li>
+    </ul>
+    <div class="cuadrado"></div>
+</nav>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu dentro de Nav con inlineblock y float</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-size: 0px;
+        }
+        body{
+            background-color: red;
+        ul{
+            text-align: center;
+        }
+        nav a{
+            text-decoration: none;
+            color: inherit;
+            font-size: 20px;
+        }
+        nav li{
+            display: inline-block;
+            width: 200px;
+            margin: -2px;
+            padding: 5px 10px;
+            background-color: rgb(99, 99, 203);
+            border: 1px solid black;
+            text-align: center;
+            color: white;
+        }
+        nav li:hover{
+            background-color:red;
+            color: white;
+        }
+        .cuadrado{
+            position: relative;
+           
+            width: 1000px;
+            height: 560px;
+            left: 20px;
+            top: 100px;
+            border: 2px solid ;
+            color: black;
+            font-size: 20px;
+            
+        }
+        .cuadrado:hover{
+            opacity: initial;
+        }
+        .cuadrado1{
+            position: absolute;
+            
+            width: 750px;
+            height: 500px;
+            left: 750px;
+            top: -3px;
+            color: black;
+            font-size: 20px;
+        }
+        .titulo{
+            font-size: 25px;
+        }
+        .cuadrado2{
+            position: absolute;
+            width: 300px;
+            height: 250px;
+            border: 2px solid black;
+            top: 20px;
+            left: 1100px;
+        }
+        .cuadrado3{
+            position: absolute;
+            width: 300px;
+            height: 250px;
+            border: 2px solid black;
+            top: 300px;
+            left: 1100px;
+        }
+        .foto{
+            width: 297px;
+            height: 247px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="quienessomos.html">Quienes somos</a></li>
+        <li><a href="proyectosyservicios.html">Proyectos y Servicios</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Blog de noticias</a></li>
+        <li><a href="#">Área de Cliente</a></li>
+    </ul>
+    <div class="cuadrado"><b class="titulo">Proyectos</b>
+
+        <br><br>Desarrollo de software a medida: Creación de aplicaciones personalizadas para satisfacer las necesidades específicas de los clientes.
+        Diseño y desarrollo web: Creación de sitios web atractivos y funcionales para empresas y organizaciones.
+        Implementación de sistemas de gestión empresarial (ERP): Integración de software para gestionar eficientemente los procesos internos de una empresa.
+        Desarrollo de aplicaciones móviles: Creación de aplicaciones para dispositivos móviles (iOS, Android) para empresas o productos.
+        Consultoría en tecnología: Asesoramiento a empresas sobre las mejores prácticas y soluciones tecnológicas para sus necesidades.
+        Seguridad informática: Implementación de medidas de seguridad para proteger los datos y sistemas de una empresa contra amenazas cibernéticas.
+        Virtualización y computación en la nube: Implementación de soluciones de virtualización y almacenamiento en la nube para mejorar la eficiencia y la escalabilidad de los sistemas informáticos.
+        Desarrollo de sistemas de inteligencia artificial y machine learning: Creación de sistemas inteligentes que pueden aprender y adaptarse para mejorar procesos empresariales.
+        <br><br>
+        <b class="titulo">Servicios</b>
+
+        <br><br>Mantenimiento de sistemas informáticos: Soporte técnico continuo para garantizar el funcionamiento óptimo de los sistemas y la resolución de problemas.
+        Gestión de redes informáticas: Configuración y mantenimiento de redes locales y corporativas para garantizar la conectividad y la seguridad.
+        Servicios de alojamiento web y dominios: Ofrecimiento de servicios de alojamiento web y registro de dominios para clientes que deseen tener presencia en línea.
+        Formación y capacitación en tecnología: Impartición de cursos y talleres para mejorar las habilidades tecnológicas de los empleados de una empresa.
+        Desarrollo de estrategias digitales: Ayuda a las empresas a desarrollar estrategias efectivas para aprovechar al máximo las tecnologías digitales en su negocio.
+        Análisis de datos y business intelligence: Extracción de información valiosa a partir de grandes conjuntos de datos para ayudar a las empresas a tomar decisiones informadas.
+        Auditorías de seguridad informática: Evaluación de la seguridad de los sistemas informáticos y recomendaciones para mejorarla.
+    <div class="cuadrado2"><img class="foto" src="img/3.webp" alt=""></div>
+    <div class="cuadrado3"><img class="foto" src="img/1.png" alt=""></div>
+    </div>
+        
+ 
